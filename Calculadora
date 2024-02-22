@@ -10,7 +10,18 @@ int main(){
     printf("Ingrese dos números con espacio entre sí: ");
     scanf("%lf %lf", &num1, &num2); // Se almacenan ambas variables digitadas por el usuario dentro de las que declaramos (anteriormente cómo double)  
         switch(operador){
-        
+            case '+':
+	        result = num1+num2;
+	        break;
+	        case '-':
+	        result = num1-num2;
+	        break;
+	        case '*':
+	        result = num1*num2;
+	        break;
+	        case '/':
+	        result = num1/num2;
+	        break;
         
         }
 }
