@@ -6,4 +6,7 @@ int main(){
     double num1, num2, result; // Variables a tomar en cuenta (durante el escaneo de acuerdo a lo que coloque el usuario) para las operaciones, de igual manera una reservada para el resultado 
     printf("Escoja un tipo de operación (+,-,*,/): "); // El usuario deberá escoger la operación matemática que requiera realizar
     scanf("%c", &operacion); // Después de escoger la operación, se guardará en nuestra variable, para así dirigir al usuario a la opción requerida
+    // Solicitud hacia el usuario para digitar ambos números
+    printf("Ingrese dos números con espacio entre sí: ");
+    scanf("%lf %lf", &num1, &num2); // Se almacenan ambas variables digitadas por el usuario dentro de las que declaramos (anteriormente cómo double)
 }
