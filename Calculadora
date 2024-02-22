@@ -1,5 +1,7 @@
 // Calculadora 4CM2 Mota Orozco Pamela & Ramírez Lozano Gael Martín
 #include <stdio.h> 
 int main(){
-
+    // Inicialización de variables
+    char operacion; // Tipo char para Switch
+    double num1, num2, result; // Variables a tomar en cuenta (durante el escaneo de acuerdo a lo que coloque el usuario) para las operaciones, de igual manera una reservada para el resultado 
 }
