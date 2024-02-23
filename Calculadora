@@ -24,4 +24,6 @@ int main(){
 	        break;
         
         }
+printf("El número resultante de la operación conformada de %.2lf %c %.2lf es %.2lf", num1, operacion, num2, result); // Se le muestra al usuario el resultado de la operación seleccionada con los números introducidos
+return 0;
 }
