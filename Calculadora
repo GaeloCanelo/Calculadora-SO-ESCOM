@@ -9,21 +9,21 @@ int main(){
     // Solicitud hacia el usuario para digitar ambos números
     printf("Ingrese dos números con espacio entre sí: ");
     scanf("%lf %lf", &num1, &num2); // Se almacenan ambas variables digitadas por el usuario dentro de las que declaramos (anteriormente cómo double)  
-        switch(operador){
-            	case '+':
-	        result = num1+num2;
+        switch(operacion){ // Apertura del Switch
+            	case '+': // Si el usuario solicita una suma
+	        result = num1+num2; // El valor asignado a la var. "result" será la suma de ambos números digitados por el usuario
 	        break;
-	        case '-':
-	        result = num1-num2;
+	        case '-': // Si el usuario solicita una resta
+	        result = num1-num2; // El valor asignado a la var. "result" será la diferencia de ambos números digitados por el usuario
 	        break;
-	        case '*':
-	        result = num1*num2;
+	        case '*': // Si el usuario solicita una mutliplicación
+	        result = num1*num2; // El valor asignado a la var. "result" será la multiplicación de ambos números digitados por el usuario
 	        break;
-	        case '/':
-	        result = num1/num2;
+	        case '/': // Si el usuario solicita una división
+	        result = num1/num2; // // El valor asignado a la var. "result" será la división entre ambos números digitados por el usuario
 	        break;
         
-        }
+        } // -- CIERRE DEL MAIN --
 printf("El número resultante de la operación conformada de %.2lf %c %.2lf es %.2lf", num1, operacion, num2, result); // Se le muestra al usuario el resultado de la operación seleccionada con los números introducidos
 return 0;
 }
